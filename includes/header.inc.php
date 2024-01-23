@@ -75,15 +75,15 @@
                             <a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Custody Transfer Solutions</a>
                             <ul class="dropdown-menu p-2">
                                 <li><a href="flow-computer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Flow Computers</a></li>
-                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Gas Chromatographs</a></li>
+                                <li><a href="gas-chromatograph.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Gas Chromatographs</a></li>
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Metering & Regulating Skid</a></li> 
                             </ul> 
                         </li> 
                         <li class="dropdown">
                             <a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Analyzers</a>
                             <ul class="dropdown-menu p-2">
-                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">H2S Analyzer</a></li>
-                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ammonia Analyzer</a></li>  
+                                <li><a href="oxygen-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">H2S Analyzer</a></li>
+                                <li><a href="analyzer-solutions.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ammonia Analyzer</a></li>  
                             </ul> 
                         </li> 
                         <li class="dropdown">
