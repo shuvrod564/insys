@@ -1,0 +1,119 @@
+/*====================================================== Home Page Styles =========================================================================================*/
+.owl-carousel .owl-item img {
+  width: auto;
+}
+.owl-carousel .owl-item img.w-100 {
+  width: 100% !important;
+}
+
+.owl-nav {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50% !important;
+  margin: 0.25rem;
+  background: var(--chevron-right) no-repeat center center/1.5rem !important;
+  background-color: var(--white) !important;
+  box-shadow: 0 2px 3px rgba(0, 110, 22, 0.2);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span {
+  display: none;
+}
+.owl-nav .owl-prev.disabled,
+.owl-nav .owl-next.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.owl-nav .owl-prev {
+  background: var(--chevron-left) no-repeat center center/1.5rem !important;
+  background-color: #fff !important;
+}
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  background-color: #e0e0e0 !important;
+}
+
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 0.2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(124, 124, 124, 0.3176470588) !important;
+}
+.owl-dots .owl-dot.active {
+  background-color: var(--brand) !important;
+  width: 16px;
+  border-radius: 8px;
+}
+
+/*======================= Header Wrapper Styles ========================*/
+.header__wrapper {
+  background-color: #F0E9E2;
+}
+.header__wrapper .h1 {
+  color: #1a1a1a;
+}
+
+.card {
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.card .title {
+  min-height: 3.5rem;
+}
+.card .title a {
+  color: var(--body-text-color);
+}
+.card .title a:hover {
+  color: var(--brand);
+}
+
+.product__card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px 0px rgba(51, 51, 51, 0.08);
+}
+.product__card .more__link {
+  border-radius: 0 0 10px 10px;
+}
+.product__card .more__link svg {
+  position: relative;
+  top: 2px;
+}
+.product__card:hover .more__link {
+  background-color: var(--brand);
+  color: var(--white);
+}
+.product__card:hover .more__link svg path {
+  fill: var(--white);
+}
+
+.testimonial__card {
+  background-color: rgba(255, 255, 255, 0.54);
+}
+.testimonial__card .author__thumb {
+  width: 4rem;
+  height: 4rem;
+}
+
+.stage__shadow .owl-stage-outer {
+  height: calc(100% + 30px);
+  margin: -15px;
+  padding: 15px;
+  width: calc(100% + 30px);
+}/*# sourceMappingURL=style.css.map */
