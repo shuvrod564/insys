@@ -60,6 +60,9 @@
                                 <li><a href="rpd-meters.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">RPD Meters</a></li>
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Turbine Meters</a></li>
                                 <li><a href="electronic-volume-correctors.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Electronic Volume Correctors</a></li>
+                                <li><a href="gas-metering-residential.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Gas Metering</a></li>
+                                <li><a href="rpd-meters2.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">RPD Meters</a></li>
+                                <li><a href="multi-phase-flow-meter.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Multi-Phase Flow Meter (MPFM)</a></li>
                             </ul>
                         </li> 
                         <li class="dropdown">
@@ -85,14 +88,15 @@
                                 <li><a href="oxygen-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">H<sub>2</sub>S Analyzer</a></li>
                                 <li><a href="process-gas-chromatograph.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Process Gas Chromatograph</a></li>  
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ammonia Analyzer</a></li>  
+                                <li><a href="mercury-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Mercury Analyzer</a></li>  
                             </ul> 
                         </li> 
                         <li class="dropdown">
                             <a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Gas & Leak Detection</a>
                             <ul class="dropdown-menu p-2" style="min-width: 20rem;right: -20rem;">
-                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Fixed type Gas Detector</a></li>
+                                <li><a href="fixed-type-gas-detectors.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Fixed type Gas Detector</a></li>
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Laser based Methane Leak Detection</a></li> 
-                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ultrasonic based Leak Detection Solutions</a></li>  
+                                <li><a href="gas-leak-detection.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ultrasonic based Leak Detection Solutions</a></li>  
                             </ul> 
                         </li> 
                         <li class="dropdown">
