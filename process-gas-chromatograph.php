@@ -29,7 +29,7 @@
         <!-- Header Wrapper Start -->
         <div class="py-5 header__wrapper text-center">
             <div class="container">
-                <h1 class="text-primary"><span class="text-dark">Analyzer </span>Solutions</h1>
+                <h1 class="text-primary"><span class="text-dark">Process Gas </span>Chromatograph</h1>
             </div><!--.//container-->
         </div>
         <!-- Header Wrapper End -->

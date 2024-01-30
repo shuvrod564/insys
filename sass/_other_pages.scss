@@ -3,3 +3,16 @@
     height: 3rem;padding: .5rem 1.5rem;background-color: #fff7f7;
 }
 textarea.form-control { height: auto; }
+
+.gas__table {
+    th {
+        font-size: .875rem;background-color: var(--brand);color: var(--white) !important;
+
+        &:nth-child(1) {
+            padding-left: 1rem;
+        }
+    }
+    td:nth-child(1) {
+        padding-left: 1rem;
+    }
+}

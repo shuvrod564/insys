@@ -9,16 +9,7 @@
     <title>Fixed type Gas Detectors</title>
  
     <!-- All Stylesheets -->
-    <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?>
-    
-    <style>
-        .under_line{
-            border-bottom: 2px solid var(--brand); 
-        }
-    </style>
-
-
-
+    <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
     
 </head>
 <body> 
@@ -53,80 +44,292 @@
 
                         <h2 class="lead-lg fw-semibold mb-3">Uniphos KwikSense
                             <span class=" text-primary"> Smart Digital</span> 
-                            <span class="text-grey"> Gas Transmitter</span>
+                            Gas Transmitter
                         </h2>
                         <p>
-                            transmitter is a universal transmitter which is compatible with all our smart gas sensors and capable of accepting more than 100 smart gas sensors. It is a field mountable device suitable for the detection and continuous monitoring of hazardous gases at industrial plant locations.
+                          The KwikSense smart dgital gas transmitter is a universal transmitter which is compatible with all our smart gas sensors and capable of accepting more than 100 smart gas sensors. It is a field mountable device suitable for the detection and continuous monitoring of hazardous gases at industrial plant locations.
                         </p>
                         <p>
                             KwikSense is available for a large number of gases which include oxygen, toxic gases, combustible gases and volatile organic compounds (VOCs).
                         </p> 
-
-                        <table class="table border-bottom-0" id="myTable">
-                            <tr>
-                              <th>Name</th>
-                              <th>Country</th>
-                              <th>Country</th>
-                              <th>Country</th>
-                              <th>Country</th>
-                            </tr>
-                            <tr>
-                              <td>Berglunds snabbkop</td>
-                              <td>Sweden</td>
-                              <td>Sweden</td>
-                              <td>Sweden</td>
-                              <td>Sweden</td>
-                            </tr>
-                            <tr>
-                              <td>North/South</td>
-                              <td>UK</td>
-                              <td>UK</td>
-                              <td>UK</td>
-                              <td>UK</td>
-                            </tr>
-                            <tr>
-                              <td>Alfreds Futterkiste</td>
-                              <td>Germany</td>
-                              <td>Germany</td>
-                              <td>Germany</td>
-                              <td>Germany</td>
-                            </tr>
-                            <tr>
-                              <td>Koniglich Essen</td>
-                              <td>Germany</td>
-                              <td>Germany</td>
-                              <td>Germany</td>
-                              <td>Germany</td>
-                            </tr>
-                            <tr>
-                              <td>Magazzini Alimentari Riuniti</td>
-                              <td>Italy</td>
-                              <td>Italy</td>
-                              <td>Italy</td>
-                              <td>Italy</td>
-                            </tr>
-                            <tr>
-                              <td>Paris specialites</td>
-                              <td>France</td>
-                              <td>France</td>
-                              <td>France</td>
-                              <td>France</td>
-                            </tr>
-                            <tr>
-                              <td>Island Trading</td>
-                              <td>UK</td>
-                              <td>UK</td>
-                              <td>UK</td>
-                              <td>UK</td>
-                            </tr>
-                            <tr>
-                              <td>Laughing Bacchus Winecellars</td>
-                              <td>Canada</td>
-                              <td>Canada</td>
-                              <td>Canada</td>
-                              <td>Canada</td>
-                            </tr>
-                          </table>
+                        
+                    <p class="text-primary lead fw-semibold">Smart Sensor Modules available for Gases</p>          
+                      <table class="table border table-striped gas__table">
+                        <tr>
+                          <th>Code</th>
+                          <th>Gas Name</th>
+                          <th>Range</th>
+                          <th>Resolution</th>
+                          <th>Type</th> 
+                        </tr>
+                        <tr>
+                          <td>010A</td>
+                          <td>Oxygen</td>
+                          <td>0-25% VN</td>
+                          <td>0.1% VN</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>015A</td>
+                          <td>Ozone</td>
+                          <td>0-1 PPM </td>
+                          <td>0.01 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>020A</td>
+                          <td>Carbon Monoxide</td>
+                          <td>0-1000 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>021A</td>
+                          <td>Carbon Disulfide</td>
+                          <td>0-100 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>022A</td>
+                          <td>Vinyl Chloro Monomer*</td>
+                          <td>0-100 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>023A</td>
+                          <td>Styrene</td>
+                          <td>0-100 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>024A</td>
+                          <td>Acrylonitrile</td>
+                          <td>0-100 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>025A</td>
+                          <td>Carbon Dioxide</td>
+                          <td>0-5% VN</td>
+                          <td>0.01% VN</td>
+                          <td>NDIR</td>
+                        </tr>
+                        <tr>
+                          <td>025B</td>
+                          <td>Carbon Dioxide</td>
+                          <td>0-100% V/N</td>
+                          <td>1% VN</td>
+                          <td>NDIR</td>
+                        </tr>
+                        <tr>
+                          <td>0B0A</td>
+                          <td>Hydrogen Sulfide</td>
+                          <td>0-100 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>085A</td>
+                          <td>Mercaptan</td>
+                          <td>0-20 PPM</td>
+                          <td>0.1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>040A</td>
+                          <td>Sulphur Dioxide</td>
+                          <td>0-20 PPM</td>
+                          <td>0.1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>050A</td>
+                          <td>Phosphine</td>
+                          <td>0-10 PPM</td>
+                          <td>0.01 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>055A</td>
+                          <td>Phosgene</td>
+                          <td>0-1 PPM</td>
+                          <td>0.01 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>060A</td>
+                          <td>Chlorine</td>
+                          <td>0-20 PPM</td>
+                          <td>0.1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>061A</td>
+                          <td>Bromine</td>
+                          <td>0-20 PPM</td>
+                          <td>0.1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>070A</td>
+                          <td>Hydrogen Chloride</td>
+                          <td>0-20 PPM</td>
+                          <td>0.1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>071A</td>
+                          <td>PCl</td>
+                          <td>0-10 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>072A</td>
+                          <td>Hydrogen Fluoride</td>
+                          <td>0-10 PPM</td>
+                          <td>0.1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>073A</td>
+                          <td>POCI</td>
+                          <td>0-20 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>075A</td>
+                          <td>Hydrogen Cyanide</td>
+                          <td>0-100 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>081A</td>
+                          <td>Nitrogen Dlood de</td>
+                          <td>0-20 PPM</td>
+                          <td>0.1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>082A</td>
+                          <td>Ammonia</td>
+                          <td>0-100 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>082B</td>
+                          <td>Ammonia</td>
+                          <td>0-1000 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>090A</td>
+                          <td>Hydrogen</td>
+                          <td>0-1000 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>0908</td>
+                          <td>Hydrogen</td>
+                          <td>0-100% LEL</td>
+                          <td>1% LEL</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>090C</td>
+                          <td>Hydrogen</td>
+                          <td>0-100% LEL</td>
+                          <td>1% LEL</td>
+                          <td>Pellistor</td>
+                        </tr>
+                        <tr>
+                          <td>098A</td>
+                          <td>Formaldehyde</td>
+                          <td>0-10 PPM</td>
+                          <td>1 PPM</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>099A</td>
+                          <td>HC (Methane)</td>
+                          <td>0-100% LEL</td>
+                          <td>1% LEL</td>
+                          <td>Pellistor</td>
+                        </tr>
+                        <tr>
+                          <td>099B</td>
+                          <td>LPG</td>
+                          <td>0-100% LEL</td>
+                          <td>1% LEL</td>
+                          <td>Pellistor</td>
+                        </tr>
+                        <tr>
+                          <td>099C</td>
+                          <td>Acetylene</td>
+                          <td>0-100% LEL</td>
+                          <td>1% LEL</td>
+                          <td>Pellistor</td>
+                        </tr>
+                        <tr>
+                          <td>099D</td>
+                          <td>Butanol</td>
+                          <td>0-100% LEL</td>
+                          <td>1% LEL</td>
+                          <td>Pellistor</td>
+                        </tr>
+                        <tr>
+                          <td>099E</td>
+                          <td>Methane</td>
+                          <td>0-100% LEL</td>
+                          <td>1% LEL</td>
+                          <td>NDIR</td>
+                        </tr>
+                        <tr>
+                          <td>099F</td>
+                          <td>Methane</td>
+                          <td>0-100% V/V</td>
+                          <td>1% VN</td>
+                          <td>NDIR</td>
+                        </tr>
+                        <tr>
+                          <td>099G</td>
+                          <td>HC (Methane)*</td>
+                          <td>500-10000 PPM</td>
+                          <td>10 PPM</td>
+                          <td>Solid State</td>
+                        </tr>
+                        <tr>
+                          <td>099H</td>
+                          <td>Hydrocarbon</td>
+                          <td>50-1000 PPM</td>
+                          <td>1 PPM Solid State</td>
+                          <td>EC</td>
+                        </tr>
+                        <tr>
+                          <td>100A</td>
+                          <td>VOC (Isobutylene)</td>
+                          <td>0-1000 PPM</td>
+                          <td>1 PPM</td>
+                          <td>PID</td>
+                        </tr>
+                        <tr>
+                          <td>100B</td>
+                          <td>VOC (Isobutylene)</td>
+                          <td>0-4000 PPM</td>
+                          <td>1 PPM</td>
+                          <td>PID</td>
+                        </tr>
+                            
+                      </table>
                     </div>
                 </div> 
             </div><!--.//container-->

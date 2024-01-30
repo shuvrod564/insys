@@ -59,10 +59,7 @@
                                 <li><a href="commercial-gas-metering.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Commercial Diaphragm Meters</a></li>
                                 <li><a href="rpd-meters.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">RPD Meters</a></li>
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Turbine Meters</a></li>
-                                <li><a href="electronic-volume-correctors.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Electronic Volume Correctors</a></li>
-                                <li><a href="gas-metering-residential.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Gas Metering</a></li>
-                                <li><a href="rpd-meters2.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">RPD Meters</a></li>
-                                <li><a href="multi-phase-flow-meter.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Multi-Phase Flow Meter (MPFM)</a></li>
+                                <li><a href="electronic-volume-correctors.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Electronic Volume Correctors</a></li> 
                             </ul>
                         </li> 
                         <li class="dropdown">
@@ -85,7 +82,8 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Analyzers</a>
                             <ul class="dropdown-menu p-2">
-                                <li><a href="oxygen-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">H<sub>2</sub>S Analyzer</a></li>
+                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">H<sub>2</sub>S Analyzer</a></li>
+                                <li><a href="oxygen-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Oxygen (O<sub>2</sub>) Analyzer</a></li>
                                 <li><a href="process-gas-chromatograph.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Process Gas Chromatograph</a></li>  
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ammonia Analyzer</a></li>  
                                 <li><a href="mercury-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Mercury Analyzer</a></li>  
@@ -95,15 +93,18 @@
                             <a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Gas & Leak Detection</a>
                             <ul class="dropdown-menu p-2" style="min-width: 20rem;right: -20rem;">
                                 <li><a href="fixed-type-gas-detectors.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Fixed type Gas Detector</a></li>
-                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Laser based Methane Leak Detection</a></li> 
-                                <li><a href="gas-leak-detection.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ultrasonic based Leak Detection Solutions</a></li>  
+                                <li><a href="laser-based-methane-leak-detection.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Laser based Methane Leak Detection</a></li> 
+                                <li><a href="ultrasound-based-leak-detection.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ultrasonic based Leak Detection Solutions</a></li>  
+                                <li><a href="portable-gas-detectors.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Portable Gas Detectors</a></li>  
+                                <li><a href="process-gas-tubes.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Process Gas Tubes</a></li>  
                             </ul> 
                         </li> 
                         <li class="dropdown">
                             <a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Intrinsically Safe Solutions</a>
                             <ul class="dropdown-menu p-2" style="min-width: 20rem;right: -20rem;">
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Explosion Proof Video Solutions</a></li>
-                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Intrinsically Safe Mobile Phones</a></li>  
+                                <li><a href="intrinsically-safe-smart-phones.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Intrinsically Safe Smart Phones</a></li>
+                                <li><a href="intrinsically-safe-basic-phones.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Intrinsically Safe Basic Mobile Phones</a></li>  
                             </ul> 
                         </li> 
                         <li class="dropdown">
@@ -211,7 +212,8 @@
                                 Analyzers
                             </a>
                             <ul class="collapse" id="collapse6"> 
-                                <li><a href="oxygen-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">H<sub>2</sub>S Analyzer</a></li>
+                                <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">H<sub>2</sub>S Analyzer</a></li>
+                                <li><a href="oxygen-analyzer.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Oxygen (O<sub>2</sub>) Analyzer</a></li>
                                 <li><a href="process-gas-chromatograph.php" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Process Gas Chromatograph</a></li>  
                                 <li><a href="#" class="dropdown-item px-2 py-2 rounded-2 fw-medium">Ammonia Analyzer</a></li>
                             </ul>
@@ -223,7 +225,7 @@
                             <ul class="collapse" id="collapse6"> 
                                 <li><a href="#">Fixed type Gas Detector</a></li>
                                 <li><a href="#">Laser based Methane Leak Detection</a></li> 
-                                <li><a href="#">Ultrasonic based Leak Detection Solutions</a></li>  
+                                <li><a href="ultrasound-based-leak-detection.php">Ultrasonic based Leak Detection Solutions</a></li>  
                             </ul>
                         </li>   
                         <li>

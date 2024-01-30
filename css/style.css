@@ -126,4 +126,16 @@
 
 textarea.form-control {
   height: auto;
+}
+
+.gas__table th {
+  font-size: 0.875rem;
+  background-color: var(--brand);
+  color: var(--white) !important;
+}
+.gas__table th:nth-child(1) {
+  padding-left: 1rem;
+}
+.gas__table td:nth-child(1) {
+  padding-left: 1rem;
 }/*# sourceMappingURL=style.css.map */
